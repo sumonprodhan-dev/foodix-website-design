@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
     font-family: 'Barlow Condensed', sans-serif;
 }
+
 
 :root {
     --primary-color: #bf1109;
@@ -185,15 +187,19 @@
 .banner-img {
     text-align: right;
     position: relative;
+    padding: 30px;
 }
 
-.discount img {
-    text-align: left;
+.discount {
     position: absolute;
-    top: 70px;
-    left: -80px;
-    transform: rotate(305deg);
+    top: 67px;
+    left: -20px; 
+    transform: rotate(-50deg);
     z-index: 1;
+}
+.discount img {
+    max-width: 150px;
+    height: auto;
 }
 
 /* header area end */
