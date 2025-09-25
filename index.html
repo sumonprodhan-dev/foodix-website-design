@@ -5,16 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodix Website</title>
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel='stylesheet'
-        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Uikit CSS -->
     <link rel="stylesheet" href="assets/vendor/Uikit-Framework/css/uikit.min.css">
-    <link rel="stylesheet" href="assets/vendor/style.css">
+    <!-- Countdown CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplycountdown.js/dist/simplyCountdown.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="./assets/vendor/slick/slick.css">
+    <link rel="stylesheet" href="./assets/vendor/slick/slick-theme.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
@@ -32,7 +41,8 @@
                             <div class="banner-content">
                                 <h3 class="m-0">Hot for every Sunday</h3>
                                 <h1 class="m-0">Enjoy Our <br><span>Delicius</span> Food</h1>
-                                <p class="my-4">Savor the taste of our delicious, expertly crafted dishes made with the finest
+                                <p class="my-4">Savor the taste of our delicious, expertly crafted dishes made with the
+                                    finest
                                     ingredients, offering a perfect blend of flavors.</p>
                                 <a href="#" class="custom-btn text-decoration-none d-inline-block">Order Now</a>
                             </div>
@@ -55,13 +65,13 @@
         <section>
             <div class="categories-area">
                 <div class="container">
-                    <div class="row">
+                    <div class="row mb-4">
                         <div class="col-md-6">
                             <div class="categories-title">
                                 <h2>Our Categories</h2>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex justify-content-end align-items-center">
                             <div class="categories-btn text-end">
                                 <a href="#">See More</a>
                             </div>
@@ -69,46 +79,50 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <span><i class="fi fi-ts-burger"></i></span>
+                            <div class=" d-flex align-items-center cat-card">
+                                <div class="left-site mx-3 mt-3">
+                                    <p class="d-flex align-items-center justify-content-center"><i
+                                            class="fa-thin fa-burger"></i></p>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h3>Delish Burger</h3>
-                                    <p>25 items</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <span><i class="fi fi-ts-sandwich"></i></span>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h3>Delish Burger</h3>
-                                    <p>25 items</p>
+                                <div class="right-site">
+                                    <strong>Delish Burger</strong>
+                                    <p class="m-0">25 items</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <span><i class="fi fi-ts-shrimp"></i></span>
+                            <div class=" d-flex align-items-center cat-card">
+                                <div class="left-site mx-3 mt-3">
+                                    <p class="d-flex align-items-center justify-content-center"><i
+                                            class="fi fi-rr-sandwich"></i></p>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h3>Delish Burger</h3>
-                                    <p>25 items</p>
+                                <div class="right-site">
+                                    <strong>Sandwiches</strong>
+                                    <p class="m-0">20 items</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <span><i class="fi fi-ts-pasta"></i></span>
+                            <div class=" d-flex align-items-center cat-card">
+                                <div class="left-site mx-3 mt-3">
+                                    <p class="d-flex align-items-center justify-content-center"><i
+                                            class="fi fi-ts-sandwich"></i></p>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h3>Delish Burger</h3>
-                                    <p>25 items</p>
+                                <div class="right-site">
+                                    <strong>Mexican Cuisine</strong>
+                                    <p class="m-0">30 items</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class=" d-flex align-items-center cat-card">
+                                <div class="left-site mx-3 mt-3">
+                                    <p class="d-flex align-items-center justify-content-center"><i
+                                            class="fi fi-ts-sandwich"></i></p>
+                                </div>
+                                <div class="right-site">
+                                    <strong>Italian Cuisine</strong>
+                                    <p class="m-0">19 items</p>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +134,7 @@
 
         <!-- about area start -->
         <section>
-            <div class="about-area">
+            <div class="section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -128,32 +142,33 @@
                                 <img src="./assets/images/about/about-6.png" alt="about">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 align-content-center">
                             <div class="about-content">
-                                <h4>About Us</h4>
-                                <h1>Delicia's about fresh flavorful dining</h1>
-                                <p>We are passionate about serving fresh, flavorful dishes crafted with the finest
+                                <h4 class="m-0 section-sub-title">About Us</h4>
+                                <h1 class="m-0 section-title">Delicia's about fresh <br>flavorful dining</h1>
+                                <p class="my-4">We are passionate about serving fresh, flavorful dishes crafted with the
+                                    finest
                                     ingredients. Every meal is thoughtfully prepared to deliver a memorable dining
                                     experience you'll love.</p>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center about-card">
                                         <div class="flex-shrink-0">
-                                            <span><i class="fi fi-ts-burger"></i></span>
+                                            <img src="./assets/images/icon/icon-7.svg" alt="burger">
                                         </div>
-                                        <div class="flex-grow-1 ms-3">
+                                        <div class="flex-grow-1 ms-3 ab-card-content">
                                             <h3>1500+</h3>
                                             <p>Total Food Item</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center about-card">
                                         <div class="flex-shrink-0">
-                                            <span><i class="fi fi-ts-burger"></i></span>
+                                            <img src="./assets/images/icon/icon-8.svg" alt="location">
                                         </div>
-                                        <div class="flex-grow-1 ms-3">
+                                        <div class="flex-grow-1 ms-3 ab-card-content">
                                             <h3>500+</h3>
                                             <p>Branch Office</p>
                                         </div>
@@ -161,7 +176,7 @@
                                 </div>
                             </div>
                             <div class="about-btn">
-                                <a href="#">Read More</a>
+                                <a href="#" class="custom-btn d-inline-block mt-5">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -172,26 +187,30 @@
 
         <!-- discount area start -->
         <section>
-            <div class="discount-area">
+            <div class="discount-area" style="background-image: url(./assets/images/bg/offer-bg1.jpg);">
                 <div class="discount-shape">
                     <span>
-                        <img src="./assets/images/bg/bn-img-6.png" alt="discount shape">
+                        <img src="./assets/images/bg/bn-img-6.png" alt="discount shape" style="width: 150px;">
                     </span>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 align-content-center">
                             <div class="discount-content">
-                                <h4>Get 25% Discount</h4>
-                                <h1>Today our special Combo offers</h1>
+                                <h4 class="m-0 section-sub-title">
+                                    Get 25% Discount</h4>
+                                <h1 class="mb-4 mt-0 section-title" style="color: #fff;">
+                                    Today our special <br>Combo offers</h1>
+                                <div id="custom-plural" class="discount-timer d-flex justify-content-start gap-4">
 
-                                <div class="discount-btn">
-                                    <a href="#">Read More</a>
+                                </div>
+                                <div class="discount-btn mt-5">
+                                    <a href="#" class="custom-btn d-inline-block">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="discount-img">
+                            <div class="discount-img d-flex justify-content-end align-items-center">
                                 <img src="./assets/images/bg/offer-img1.png" alt="discount">
                             </div>
                         </div>
@@ -203,46 +222,50 @@
 
         <!-- choose area start -->
         <section>
-            <div class="choose-area">
+            <div class="choose-area" style="padding: 100px 0px;">
                 <div class="container">
-                    <div class="choose-header">
-                        <h4>Why Choose Us</h4>
-                        <h1>Why We’re Your Best Choice</h1>
+                    <div class="row">
+                        <div class="col-lg-8 text-center mx-auto">
+                            <div class="choose-header">
+                                <h4 class="m-0 section-sub-title">Why Choose Us</h4>
+                                <h1 class="m-0 mb-5 section-title">Why We’re Your Best Choice</h1>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-lg-3">
-                            <div class="card">
+                            <div class="card hover-card">
                                 <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hygienic Food</h5>
-                                    <p class="card-text">We are passionate about serving fresh, flavorful</p>
+                                <div class="card-body text-center choose-area-card-content">
+                                    <h3 class="card-title my-2">Hygienic Food</h3>
+                                    <p class="card-text m-0">We are passionate about serving fresh, flavorful</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <div class="card">
+                            <div class="card hover-card">
                                 <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hygienic Food</h5>
-                                    <p class="card-text">We are passionate about serving fresh, flavorful</p>
+                                <div class="card-body text-center choose-area-card-content">
+                                    <h3 class="card-title my-2">Hygienic Food</h3>
+                                    <p class="card-text m-0">We are passionate about serving fresh, flavorful</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <div class="card">
+                            <div class="card hover-card">
                                 <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hygienic Food</h5>
-                                    <p class="card-text">We are passionate about serving fresh, flavorful</p>
+                                <div class="card-body text-center choose-area-card-content">
+                                    <h3 class="card-title my-2">Hygienic Food</h3>
+                                    <p class="card-text m-0">We are passionate about serving fresh, flavorful</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <div class="card">
+                            <div class="card hover-card">
                                 <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hygienic Food</h5>
-                                    <p class="card-text">We are passionate about serving fresh, flavorful</p>
+                                <div class="card-body text-center choose-area-card-content">
+                                    <h3 class="card-title my-2">Hygienic Food</h3>
+                                    <p class="card-text m-0">We are passionate about serving fresh, flavorful</p>
                                 </div>
                             </div>
                         </div>
@@ -254,49 +277,53 @@
 
         <!-- reservation area start -->
         <section>
-            <div class="reservation-area">
+            <div class="reservation-area" style="background-image: url(./assets/images/bg/offer-bg1.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="reservation-content">
-                                <h4>Reservation</h4>
-                                <h1>Make a Reservation</h1>
-                                <h5>Order online or by phone</h5>
-                                <div class="reservation-btn">
-                                    <a href="#">+555-657-8876</a>
+                                <h4 class="m-0 section-sub-title">Reservation</h4>
+                                <h1 class="mt-1 mb-3 section-title" style="color: #fff; font-size: 60px;">Need
+                                    reservation? <br>booking your table now</h1>
+                                <h5 class="m-0 section-sub-title" style="text-transform: capitalize; font-size: 14px;">
+                                    Order online or by phone</h5>
+                                <div class="reservation-btn mt-4">
+                                    <a href="#" class="custom-btn d-inline-block ">+555-657-8876</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="reservation-form">
-                                <div class="form-title">
-                                    <h2>Create An Booking Table</h2>
+                            <div class="reservation-form text-center">
+                                <div class="reser-form-title">
+                                    <h2 class="mb-4">Create An Booking Table</h2>
                                 </div>
                                 <form action="#">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <div class="form-item">
-                                                <input type="text" placeholder="Enter your name">
+                                            <div class="reser-form-item" style="margin-bottom: 30px;">
+                                                <input type="text" required placeholder="Enter your name">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <div class="form-item">
-                                                <input type="email" placeholder="Enter your email">
+                                            <div class="reser-form-item" style="margin-bottom: 30px;">
+                                                <input type="email" required placeholder="Enter your email">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <div class="form-item">
-                                                <input type="number" placeholder="Enter your number">
+                                            <div class="reser-form-item reser-phone-input" style="margin-bottom: 30px;">
+                                                <input type="tel" required placeholder="Enter your number">
+                                                <div class="overly">
+                                                    <i class="bi bi-telephone"></i>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <div class="form-item">
-                                                <input type="text" placeholder="Enter your date">
+                                            <div class="reser-form-item" style="margin-bottom: 30px;">
+                                                <input type="date" required placeholder="Enter your date">
                                             </div>
                                         </div>
-                                        <div class="form-item">
-                                            <select class="form-select" aria-label="Disabled select example">
-                                                <option selected disabled>Open this select people</option>
+                                        <div class="reser-form-item" style="margin-bottom: 30px;">
+                                            <select class="form-select required">
                                                 <option value="1">01 People</option>
                                                 <option value="2">02 People</option>
                                                 <option value="3">03 People</option>
@@ -304,8 +331,8 @@
                                                 <option value="5">05 People</option>
                                             </select>
                                         </div>
-                                        <div class="form-item">
-                                            <a href="#" class="" type="submit">Book a Table</a>
+                                        <div class="reser-form-btn" style="margin-bottom: 30px;">
+                                            <a href="#" type="submit">Book a Table</a>
                                         </div>
                                     </div>
                                 </form>
@@ -314,130 +341,132 @@
                     </div>
                 </div>
             </div>
+            </div>
+            </div>
         </section>
         <!-- reservation area end -->
 
         <!-- delicious area start -->
         <section>
-            <div class="delicious-title">
+            <div class="delicious-title section-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 text-center mx-auto">
                             <div class="delicious-header">
-                                <h5>Delicious Menu</h5>
-                                <h1>Explore Our Delicious Menu</h1>
+                                <h5 class="m-0 section-sub-title">Delicious Menu</h5>
+                                <h1 class="mt-1 mb-5 section-title">Explore Our Delicious Menu</h1>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb1.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb2.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb3.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb4.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb5.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb6.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb7.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center delicious-card">
                                 <div class="flex-shrink-0">
                                     <span><img src="./assets/images/menu/menu-thumb8.png" alt=""></span>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h2>Truffle Mac and Cheese</h2>
-                                    <p>Indulgent mac and cheese with truffle essence.</p>
+                                <div class="flex-grow-1 ms-3 delicious-card-content">
+                                    <h2 class="mb-1">Truffle Mac and Cheese</h2>
+                                    <p class="m-0">Indulgent mac and cheese with truffle essence.</p>
                                 </div>
-                                <div class="me-0">
+                                <div class="me-0 delicious-card-price">
                                     <span>$25.50</span>
                                 </div>
                             </div>
@@ -448,15 +477,69 @@
         </section>
         <!-- delicious area end -->
 
+        <!-- carousel area start -->
+        <section>
+            <div class="carousel g-0">
+                <div class="carousel-item">
+                    <img src="./assets/images/gallery/gallery-14.jpg" alt="carousel">
+                    <div class="carousel-overlay d-flex flex-column justify-content-end align-items-center">
+                        <a href="#" class="carousel-ovarlay-title m-0">Hawaiian Pizza</a>
+                        <p class="m-0">Pizza</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/gallery/gallery-15.jpg" alt="carousel">
+                    <div class="carousel-overlay d-flex flex-column justify-content-end align-items-center">
+                        <a href="#" class="carousel-ovarlay-title m-0">Veggie Pizza</a>
+                        <p class="m-0">Pizza</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/gallery/gallery-16.jpg" alt="carousel">
+                    <div class="carousel-overlay d-flex flex-column justify-content-end align-items-center">
+                        <a href="#" class="carousel-ovarlay-title m-0">Cheese Pizza</a>
+                        <p class="m-0">Pizza</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/gallery/gallery-17.jpg" alt="carousel">
+                    <div class="carousel-overlay d-flex flex-column justify-content-end align-items-center">
+                        <a href="#" class="carousel-ovarlay-title m-0">Cheese Pizza</a>
+                        <p class="m-0">Pizza</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/gallery/gallery-18.jpg" alt="carousel">
+                    <div class="carousel-overlay d-flex flex-column justify-content-end align-items-center">
+                        <a href="#" class="carousel-ovarlay-title m-0">Cheese Pizza</a>
+                        <p class="m-0">Pizza</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/gallery/gallery-17.jpg" alt="carousel">
+                    <div class="carousel-overlay d-flex flex-column justify-content-end align-items-center">
+                        <a href="#" class="carousel-ovarlay-title m-0">Cheese Pizza</a>
+                        <p class="m-0">Pizza</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- carousel area end -->
+
         <!-- Our Chef area start -->
         <section>
-            <div class="chef-area">
+            <div class="chef-area section-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 text-center mx-auto">
                             <div class="delicious-header">
-                                <h5>Our Special Chefs</h5>
-                                <h1>Introducing Our Culinary Masters</h1>
+                                <h5 class="m-0 section-sub-title">Our Special Chefs</h5>
+                                <h1 class="mt-1 mb-5 section-title">Introducing Our Culinary Masters</h1>
                             </div>
                         </div>
                     </div>
@@ -519,61 +602,91 @@
         <!-- Our Chef area end -->
 
         <!-- testimonial area start -->
+        <section>
+            <div class="testimonial-area section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 text-center mx-auto">
+                            <div class="testimonial-title">
+                                <h5 class="m-0 section-sub-title">Testimonial</h5>
+                                <h1 class="mb-5 mt-2 section-title">What Our Customers Say</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 text-center mx-auto">
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- testimonial area end -->
 
         <!-- blog area start -->
         <section>
-            <div class="blog-area">
+            <div class="blog-area section-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 text-center mx-auto">
                             <div class="blog-title">
-                                <h5>Our Latest Blog</h5>
-                                <h1>Discover Our Latest Blog Posts</h1>
+                                <h5 class="m-0 section-sub-title">Our Latest Blog</h5>
+                                <h1 class="mb-5 mt-2 section-title">Discover Our Latest Blog Posts</h1>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="./assets/images/blog/blog-17.jpg" class="card-img-top" alt="...">
-                                <div class="comment">
-                                    <span><a href="#"><i class="bi bi-person-fill"></i>By Devid</a></span>
-                                    <span><a href="#"><i class="bi bi-chat-dots-fill"></i>Comment</a></span>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card’s content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="./assets/images/blog/blog-17.jpg" class="card-img-top" alt="...">
-                                <div class="comment">
-                                    <span><a href="#"><i class="bi bi-person-fill"></i>By Devid</a></span>
-                                    <span><a href="#"><i class="bi bi-chat-dots-fill"></i>Comment</a></span>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card’s content.</p>
+                            <div class="card blog-content">
+                                <img src="./assets/images/blog/blog-17.jpg" class="card-img-top blog-card-img"
+                                    alt="...">
+                                <div class="p-4">
+                                    <div class="comment">
+                                        <span class="mb-0 me-5"><a href="#"><i class="bi bi-person-fill me-2"></i>By
+                                                Devid</a></span>
+                                        <span><a href="#"><i class="bi bi-chat-dots-fill me-2"></i>Comment</a></span>
+                                    </div>
+                                    <div class="card-body blog-card-content p-0">
+                                        <h5 class="card-title mt-1">Crispy Stovetop Roosted Red Potatoes Foods</h5>
+                                        <p class="card-text">Crispy stovetop red potatoes, seasoned to perfection,
+                                            golden and delicious.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="./assets/images/blog/blog-17.jpg" class="card-img-top" alt="...">
-                                <div class="comment d-flex">
-                                    <span><a href="#"><i class="bi bi-person-fill"></i>By Devid</a></span>
-                                    <span><a href="#"><i class="bi bi-chat-dots-fill"></i>Comment</a></span>
+                            <div class="card blog-content">
+                                <img src="./assets/images/blog/blog-18.jpg" class="card-img-top blog-card-img"
+                                    alt="...">
+                                <div class="p-4">
+                                    <div class="comment">
+                                        <span class="mb-0 me-5"><a href="#"><i class="bi bi-person-fill me-2"></i>By
+                                                Devid</a></span>
+                                        <span><a href="#"><i class="bi bi-chat-dots-fill me-2"></i>Comment</a></span>
+                                    </div>
+                                    <div class="card-body blog-card-content p-0">
+                                        <h5 class="card-title mt-1">Crispy Stovetop Roosted Red Potatoes Foods</h5>
+                                        <p class="card-text">Crispy stovetop red potatoes, seasoned to perfection,
+                                            golden and delicious.</p>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card blog-content">
+                                <img src="./assets/images/blog/blog-19.jpg" class="card-img-top blog-card-img"
+                                    alt="...">
+                                <div class="p-4">
+                                    <div class="comment">
+                                        <span class="mb-0 me-5"><a href="#"><i class="bi bi-person-fill me-2"></i>By
+                                                Devid</a></span>
+                                        <span><a href="#"><i class="bi bi-chat-dots-fill me-2"></i>Comment</a></span>
+                                    </div>
+                                    <div class="card-body blog-card-content p-0">
+                                        <h5 class="card-title mt-1">Crispy Stovetop Roosted Red Potatoes Foods</h5>
+                                        <p class="card-text">Crispy stovetop red potatoes, seasoned to perfection,
+                                            golden and delicious.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -587,22 +700,22 @@
     <!-- footer start -->
     <div id="footer"></div>
     <!-- footer end -->
-    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/vendor/Uikit-Framework/js/uikit.min.js"></script>
-    <script src="./assets/vendor/main.js"></script>
-    <script>
-        // header add js
-        fetch("header.html")
-            .then(Response => Response.text())
-            .then(data => {
-                document.getElementById("header").innerHTML = data
-            });
 
-        // footer add js
-        fetch("footer.html")
-            .then(Response => Response.text())
-            .then(data => document.getElementById("footer").innerHTML = data);
-    </script>
+
+
+    <!-- js start -->
+    <!-- bootstrap js -->
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- uikit js -->
+    <script src="./assets/vendor/Uikit-Framework/js/uikit.min.js"></script>
+    <!-- jquery js -->
+    <script src="./assets/vendor/jquery-3.7.1.min.js"></script>
+    <!-- countdown js -->
+    <script src="./assets/vendor/dist/simplyCountdown.umd.js"></script>
+    <!-- slick js -->
+    <script src="./assets/vendor/slick/slick.min.js"></script>
+    <!-- main js -->
+    <script src="./assets/main.js"></script>
 </body>
 
 </html>
